@@ -1,0 +1,206 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #212121;
+}
+
+.container {
+  /* Add your styles here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header img{
+  margin-left: 140px;
+  margin-top: 50px;
+
+
+}
+
+.header {
+  /* Add your styles here */
+}
+
+h1 {
+  /* Add your styles here */
+  color: rgb(226, 83, 83);
+  font-size: 6vh;
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+  /* Add your styles here */
+  color: rgb(110, 106, 106);
+  text-align: center;
+  font-weight: 600;
+}
+
+.pricing-container {
+  /* Add your styles here */
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.pricing-card {
+  /* Add your styles here */
+  margin: 20px 20px;
+  width: 26%;
+  
+  background-color: #333232;
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+  background-color: #413f3f;
+}
+
+.card-header {
+  /* Add your styles here */
+  color: rgb(255, 255, 255);
+  font-size: 2vh;
+}
+.card-header h2{
+  margin: 0 0;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.icon {
+  /* Add your styles here */
+  text-align: center;
+  font-size: 4vh;
+  margin-bottom: 20px;
+}
+
+.popular-tag {
+  /* Add your styles here */
+  position: absolute;
+  top: 32.5%;
+  left:46.3%;
+  background-color: rgb(252, 212, 35);
+  color: #110f0f;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 1.5vh;
+}
+
+.price-block {
+  /* Add your styles here */
+  width: 100%;
+  background-color: #413f3f;
+  padding: 10px 0;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  
+  
+}
+
+.price {
+  /* Add your styles here */
+  font-size: 4vh;
+  color: rgb(217, 95, 95);
+  font-weight: 800;
+  
+}
+
+.period {
+  /* Add your styles here */
+  color: #908e8e;
+}
+
+.features {
+  /* Add your styles here */
+  margin-bottom: 10px;
+
+}
+
+.features li {
+  /* Add your styles here */
+  list-style: none;
+  font-size: 2vh;
+  color: rgb(182, 179, 179);
+  margin: 4px 0;
+}
+
+.features li.disabled {
+  /* Add your styles here */
+  opacity: 60%;
+}
+
+.join-btn {
+  /* Add your styles here */
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 2px solid rgb(217, 95, 95);
+  color: rgb(217, 95, 95);
+}
+
+.join-btn:hover {
+  /* Add your styles here */
+  background-color: rgb(217, 95, 95);
+  color: #d9d5d5;
+}
+
+/* Custom Class Modifiers */
+.warrior {
+  /* Add your styles here */
+  background-color:rgb(75, 45, 45);
+  border: 2px solid rgb(217, 95, 95);
+}
+.warrior .price-block{
+  background-color:rgb(110, 68, 68);
+}
+.warrior:hover{
+  /* Add your styles here */
+  background-color: rgb(110, 68, 68);
+
+}
+
+.champion {
+  /* Add your styles here */
+  background-color:rgb(75, 71, 37);
+  border: 2px solid rgb(214, 189, 77);
+}
+
+.champion .price-block {
+  /* Add your styles here */
+  background-color:rgb(103, 97, 57);
+}
+.champion .price{
+  color: rgb(214, 189, 77);
+}
+
+.champion .join-btn {
+  /* Add your styles here */
+  border: 2px solid rgb(214, 189, 77);
+  color: rgb(214, 189, 77) ;
+}
+.champion:hover{
+  background-color: rgb(103, 97, 57);
+}
+
+.champion .join-btn:hover {
+  /* Add your styles here */
+  background-color:rgb(177, 155, 53);
+  color: #f4f0f0;
+}
